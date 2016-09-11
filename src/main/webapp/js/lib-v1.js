@@ -1206,9 +1206,9 @@ var category = {OBJ: $("#_JD_ALLSORT"),
     	//使用jsonp来实现跨域请求
         $.getJSONP(this.URL_Serv, category.getDataService);
     	//直接使用ajax请求json数据
-    	/*$.getJSON(this.URL_Serv, function(json){
+    	$.getJSON(this.URL_Serv, function(json){
     		category.getDataService(json);
-    	});*/
+    	});
     },FN_GetBrands: function() {
       //  $.getJSONP(this.URL_BrandsServ, category.getBrandService)
     },FN_RefactorJSON: function(a, b) {
