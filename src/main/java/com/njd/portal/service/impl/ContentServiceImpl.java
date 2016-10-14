@@ -1,4 +1,4 @@
-package com.taotao.portal.service.impl;
+package com.njd.portal.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,11 +8,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.taotao.common.util.HttpClientUtil;
-import com.taotao.common.util.JsonUtils;
-import com.taotao.pojo.TaotaoResult;
-import com.taotao.pojo.TbContent;
-import com.taotao.portal.service.ContentService;
+import com.njd.common.util.HttpClientUtil;
+import com.njd.common.util.JsonUtils;
+import com.njd.portal.service.ContentService;
+import com.njd.pojo.TaotaoResult;
+import com.njd.pojo.TbContent;
 
 @Service
 public class ContentServiceImpl implements ContentService {

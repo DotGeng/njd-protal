@@ -1,23 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>taotao-parent</artifactId>
-    <groupId>com.taotao</groupId>
+    <artifactId>njd-parent</artifactId>
+    <groupId>com.njd</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.taotao</groupId>
-  <artifactId>taotao-portal</artifactId>
+  <groupId>com.njd</groupId>
+  <artifactId>njd-portal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   	<dependencies>
 		<dependency>
-			<groupId>com.taotao</groupId>
-			<artifactId>taotao-common</artifactId>
+			<groupId>com.njd</groupId>
+			<artifactId>njd-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.taotao</groupId>
-			<artifactId>taotao-manager-pojo</artifactId>
+			<groupId>com.njd</groupId>
+			<artifactId>njd-manager-pojo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- Spring -->

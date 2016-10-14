@@ -1,4 +1,4 @@
-package com.taotao.portal.service;
+package com.njd.portal.service;
 
 public interface ContentService {
 	public String getContentList();
